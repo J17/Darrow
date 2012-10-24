@@ -1,0 +1,89 @@
+body{
+	font-family: Verdana,Arial, Helvetica;
+	font-size: 12px;
+	font-stretch: 5px;
+	background-image: url('../images/Verde.jpg');
+	background-repeat: no-repeat; 
+	background-attachment:fixed; 
+
+}
+
+.contentPag{
+	background-color: #FFFFFF;
+	width: 1000px;
+	position: absolute;
+	left: 10%;
+	top: 2%;
+	border: 1px solid;
+	-moz-border-radius: 10px; /* Firefox*/
+	-ms-border-radius: 10px; /* IE 8.*/
+	-webkit-border-radius: 10px; /* Safari,Chrome.*/
+	border-radius: 10px; /* El estándar.*/
+}
+.Encabezado{
+	color: #000000;
+	font-size: 18px;
+	/*background-color: #04B404;*/
+	width:101%;
+	max-width: 1600px;
+	height:100px;
+	margin-left: -8px;
+	margin-top: -25px;
+	z-index: 1;
+	padding-left: 50px;
+
+	
+}
+
+#sesion {
+background-color:#EBEBEB;
+border:medium none;
+color:#333333;
+height:665px;
+padding:0 0 0 50px;
+width:515px;
+}
+
+#sesion legend {
+color:#333333;
+font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:21px;
+letter-spacing:-1px;
+padding-bottom:20px;
+padding-top:8px;
+text-transform:capitalize;
+}
+
+#sesion input.text {
+background-color:#FF00FF;
+border:medium none !important;
+color:#666666;
+font-size:12px;
+height:24px;
+padding-bottom:0;
+padding-left:5px;
+padding-top:5px;
+width:454px;
+font-family:arial,sans-serif;
+}
+
+#sesion label {
+display:block;
+font-family:arial,sans-serif;
+font-size:14px;
+padding:10px 0 3px;
+}
+
+#sesion input.send {
+background-color:#FF00FF;
+border:medium none !important;
+color:#FFFFFF;
+display:block;
+float:left;
+font-family:arial,sans-serif;
+height:30px;
+margin-left:360px;
+margin-top:20px;
+text-align:center;
+width:99px;
+}
